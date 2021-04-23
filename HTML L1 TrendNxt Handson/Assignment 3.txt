@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+        	<title>Awesome Online Videos</title>
+</head>
+<body>
+        	
+		<center><h1>Awesome Online Videos</h1>
+<hr>
+        	<div  >
+           		<video width="960" heigth="500" id="vdo" style="background-color:lightblue">
+			<source src="videoplayback.mp4" type="video/mp4"/>
+ 		</video>
+<br>
+		<button onclick="play()">Play</button>
+		<button onclick="pause()">Pause</button>
+</center>
+        	</div>
+	<script> 
+		var myVideo = document.getElementById("vdo"); 
+		function play()
+		{ 
+    			myVideo.play(); 
+		} 
+		function pause()
+		{
+ 			myVideo.pause(); 
+		}
+	</script> 
+	<footer>
+	</footer>
+</body>
+</html>
+ 
